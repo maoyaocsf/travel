@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2734c8ee-6ea6-477e-b686-ea8ec80c64d4" name="Default Changelist" comment="" />
+    <list default="true" id="2734c8ee-6ea6-477e-b686-ea8ec80c64d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/filter/CharchaterFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/util/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/util/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/util/MailUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/CheckCodeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/CheckCodeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/RegistUserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/RegistUserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-10-15" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-10-15" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -17,6 +41,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1itVIJqXcG6d1FcrQXxpiGYiSrp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,7 +65,25 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Maven.tomcat">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_g\travel\src\main\java\cn\itcast\travel\web\filter" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MailUtils">
+    <configuration name="MailUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.travel.util.MailUtils" />
+      <module name="travel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.travel.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tomcat" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -130,7 +175,13 @@
     <list>
       <item itemvalue="Maven.tomcat" />
       <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.MailUtils" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MailUtils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -156,7 +207,7 @@
       <updated>1602726793870</updated>
       <workItem from="1602726799167" duration="65000" />
       <workItem from="1602726928287" duration="19000" />
-      <workItem from="1602728857726" duration="14536000" />
+      <workItem from="1602728857726" duration="35327000" />
     </task>
     <servers />
   </component>
@@ -168,26 +219,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="480" y="97" width="1092" height="733" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602742561181" />
-    <state x="634" y="367" key="FileChooserDialogImpl" timestamp="1602732990968">
+    <state x="1361" y="269" key="#com.intellij.ide.util.MemberChooser" timestamp="1602758717589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="634" y="367" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602732990968" />
-    <state width="1876" height="392" key="GridCell.Tab.0.bottom" timestamp="1602749011859">
+    <state x="1361" y="269" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602758717589" />
+    <state x="124" y="123" width="1740" height="815" key="DiffContextDialog" timestamp="1602752075249">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602749011859" />
-    <state width="1876" height="392" key="GridCell.Tab.0.center" timestamp="1602749011859">
+    <state x="124" y="123" width="1740" height="815" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602752075249" />
+    <state x="634" y="367" key="FileChooserDialogImpl" timestamp="1602755857172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="392" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602749011859" />
-    <state width="1876" height="392" key="GridCell.Tab.0.left" timestamp="1602749011859">
+    <state x="634" y="367" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602755857172" />
+    <state width="1731" height="303" key="GridCell.Tab.0.bottom" timestamp="1602826424403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="392" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602749011859" />
-    <state width="1876" height="392" key="GridCell.Tab.0.right" timestamp="1602749011859">
+    <state width="1731" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602826424403" />
+    <state width="1731" height="303" key="GridCell.Tab.0.center" timestamp="1602826424403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="392" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602749011859" />
+    <state width="1731" height="303" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602826424403" />
+    <state width="1731" height="303" key="GridCell.Tab.0.left" timestamp="1602826424403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1731" height="303" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602826424403" />
+    <state width="1731" height="303" key="GridCell.Tab.0.right" timestamp="1602826424403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1731" height="303" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602826424403" />
     <state x="322" y="117" key="new project wizard" timestamp="1602726942182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
